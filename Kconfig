@@ -1,0 +1,6 @@
+menuconfig OHAYAS_MOD
+	bool "Ohayas Interceptor"
+	default y
+	depends on MODULES
+	help
+	  Ohayas Interceptor, used to hook system calls to mitigate RASP solutions.
